@@ -12,7 +12,7 @@
 <style>
   nav {
     background: #c72027;
-    padding: 18px 32px;
+    padding: 16px 32px;
     border-bottom: solid #fffafa;
     position: fixed;
     left: 0;
@@ -34,6 +34,6 @@
   }
 
   img {
-    height: 50px;
+    height: 40px;
   }
 </style>
