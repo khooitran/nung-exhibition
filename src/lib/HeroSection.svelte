@@ -57,6 +57,12 @@
     font-weight: 200;
   }
 
+  @media only screen and (orientation: portrait) {
+    section {
+      min-height: fit-content;
+    }
+  }
+
   @media only screen and (max-width: 1200px) {
     div {
       width: 100%;
@@ -64,7 +70,6 @@
   }
   @media only screen and (max-width: 992px) {
     section {
-      min-height: fit-content;
       padding-bottom: 40px;
     }
     h2,

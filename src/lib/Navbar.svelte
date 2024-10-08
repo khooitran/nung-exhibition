@@ -1,10 +1,12 @@
 <nav>
-  <img
-    src="/nung-logo.png"
-    alt="Logo of NUNG Exhibition, feature 4 abstract tiles."
-  />
+  <a href="/">
+    <img
+      src="/nung-logo.png"
+      alt="Logo of NUNG Exhibition, feature 4 abstract tiles."
+    />
+  </a>
   <div>
-    <a href="/">Home</a>
+    <a href="/about">About</a>
     <a href="/projects">Projects</a>
   </div>
 </nav>
@@ -12,7 +14,7 @@
 <style>
   nav {
     background: #c72027;
-    padding: 16px 32px;
+    padding: 16px 30px;
     border-bottom: solid #fffafa;
     position: fixed;
     left: 0;
@@ -22,7 +24,7 @@
     justify-content: space-between;
   }
 
-  nav a {
+  nav div a {
     color: #fffafa;
     margin-left: 15px;
     text-decoration: none;
