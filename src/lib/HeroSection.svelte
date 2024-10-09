@@ -36,7 +36,7 @@
   }
 
   img {
-    width: 36%;
+    width: 36.75vw;
     height: auto;
     max-height: 75vh;
     max-width: 75vh;

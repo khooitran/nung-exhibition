@@ -1,43 +1,108 @@
 <script>
+  import AboutUs from '../lib/AboutUs.svelte';
   import HeroSection from '../lib/HeroSection.svelte';
+  import Projects from '../lib/Projects.svelte';
 </script>
 
 <HeroSection />
 
-<section>
-  <p>
-    16 works from 16 students showcasing their knowledge and skills through a variety of design
-    disciplines, including: Branding, Illustration, Graphic Design, Publication, UI/UX, and Spatial
-    Design. <a href="/projects">See all projects &rarr;</a>
-  </p>
-</section>
-
-<section>
-  <p>
-    NUNG Exhibition is the first exhibition from the students of Capstone 2. To organise such an
-    event while also manage to create quality work was no easy feat. Get to know the same students
-    and lecturers from this different perspective. <a href="/about">About Us &rarr;</a>
-  </p>
-</section>
+<div class="navigation">
+  <div class="image-rows">
+    <img
+      src="/tiles/dangquocanh.png"
+      alt=""
+    />
+    <img
+      src="/tiles/dinhsonglinh.png"
+      alt=""
+    />
+    <img
+      src="/tiles/doanminhquan.png"
+      alt=""
+    />
+    <img
+      src="/tiles/dohanhmi.png"
+      alt=""
+    />
+    <img
+      src="/tiles/hoanglong.png"
+      alt=""
+    />
+    <img
+      src="/tiles/hungson.png"
+      alt=""
+    />
+    <img
+      src="/tiles/nguyenanson.png"
+      alt=""
+    />
+    <img
+      src="/tiles/nguyendoquynhanh.png"
+      alt=""
+    />
+  </div>
+  <div class="content">
+    <AboutUs />
+    <Projects />
+  </div>
+  <div class="image-rows">
+    <img
+      src="/tiles/nguyenducduy.png"
+      alt=""
+    />
+    <img
+      src="/tiles/phuongnhung.png"
+      alt=""
+    />
+    <img
+      src="/tiles/quynhhuong.png"
+      alt=""
+    />
+    <img
+      src="/tiles/thaonguyen.png"
+      alt=""
+    />
+    <img
+      src="/tiles/thuhai.png"
+      alt=""
+    />
+    <img
+      src="/tiles/thuytrang.png"
+      alt=""
+    />
+    <img
+      src="/tiles/trankhanhlinh.png"
+      alt=""
+    />
+    <img
+      src="/tiles/tubaongan.png"
+      alt=""
+    />
+  </div>
+</div>
 
 <style>
-  section {
-    margin: 200px 0;
+  .navigation {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
-  p {
-    margin-left: 30px;
-    width: 40vw;
-    font-size: 24px;
-    font-weight: 900;
-    color: #c72027;
-  }
-
-  a {
-    color: #c72027;
-    text-decoration: none;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
   }
 
-  a:hover {
-    text-decoration: underline;
+  .image-rows {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 8px;
+    margin: 30px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 </style>

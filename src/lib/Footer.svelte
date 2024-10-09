@@ -7,8 +7,14 @@
       <p>Bachelor of Design Studies</p>
     </div>
     <div>
-      <a href="https://www.instagram.com/nung.exhibition/">Instagram &rarr;</a>
-      <p>nung.exhibition@gmail.com</p>
+      <a
+        target="_blank"
+        href="https://www.instagram.com/nung.exhibition/">Instagram &rarr;</a
+      >
+      <a
+        target="_blank"
+        href="https://www.facebook.com/NUNG.exhibition">Facebook &rarr;</a
+      >
     </div>
   </div>
 </footer>
@@ -46,6 +52,7 @@
     text-decoration: none;
     font-size: 24px;
     font-style: italic;
+    display: block;
   }
 
   a:hover {
