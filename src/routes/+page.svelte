@@ -25,32 +25,39 @@
   let reversedImages = images.toReversed();
 </script>
 
-<HeroSection />
+<div class="wrapper">
+  <HeroSection />
 
-<section>
-  <div class="image-rows">
-    {#each images as image}
-      <img
-        src="/tiles/{image}"
-        alt="one of the personal tiles of the 16 designers, reflecting their philosophy and style in design."
-      />
-    {/each}
-  </div>
-  <div class="content">
-    <AboutUs />
-    <Projects />
-  </div>
-  <div class="image-rows">
-    {#each reversedImages as reversedImage}
-      <img
-        src="/tiles/{reversedImage}"
-        alt="one of the personal tiles of the 16 designers, reflecting their philosophy and style in design."
-      />
-    {/each}
-  </div>
-</section>
+  <section>
+    <div class="image-rows">
+      {#each images as image}
+        <img
+          src="/tiles/{image}"
+          alt="one of the personal tiles of the 16 designers, reflecting their philosophy and style in design."
+        />
+      {/each}
+    </div>
+    <div class="content">
+      <AboutUs />
+      <Projects />
+    </div>
+    <div class="image-rows">
+      {#each reversedImages as reversedImage}
+        <img
+          src="/tiles/{reversedImage}"
+          alt="one of the personal tiles of the 16 designers, reflecting their philosophy and style in design."
+        />
+      {/each}
+    </div>
+  </section>
+</div>
 
 <style>
+  .wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
   section {
     height: 92vh;
     display: flex;
