@@ -58,4 +58,26 @@
   a:hover {
     text-decoration: underline;
   }
+
+  @media only screen and (max-width: 992px) {
+    p,
+    a {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .flex div {
+      margin-right: 10px;
+      margin-bottom: 26px;
+    }
+
+    .flex {
+      flex-direction: column;
+    }
+
+    footer {
+      padding-bottom: 10px;
+    }
+  }
 </style>

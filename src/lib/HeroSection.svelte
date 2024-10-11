@@ -22,7 +22,7 @@
 <style>
   section {
     background-color: #c72027;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@
 
   @media only screen and (orientation: portrait) {
     section {
-      min-height: fit-content;
+      height: fit-content;
     }
   }
 
@@ -68,6 +68,7 @@
       width: 100%;
     }
   }
+
   @media only screen and (max-width: 992px) {
     section {
       padding-bottom: 40px;
@@ -77,6 +78,7 @@
       font-size: 18px;
     }
   }
+
   @media only screen and (max-width: 576px) {
     img {
       display: none;

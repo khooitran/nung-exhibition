@@ -10,7 +10,7 @@
 <style>
   p {
     width: 36vw;
-    padding-right: 11.5vw;
+    padding-right: 14vw;
     font-size: 24px;
     font-weight: 900;
     color: #c72027;
@@ -25,5 +25,31 @@
 
   a:hover {
     text-decoration: underline;
+  }
+
+  @media only screen and (orientation: portrait) {
+    section {
+      margin-top: 30px;
+      padding-bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    p,
+    a {
+      font-size: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    section {
+      margin-bottom: 20px;
+    }
+    p,
+    a {
+      margin-left: 30px;
+      padding-right: 30px;
+      width: auto;
+    }
   }
 </style>

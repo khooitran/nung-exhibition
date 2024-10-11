@@ -26,4 +26,30 @@
   a:hover {
     text-decoration: underline;
   }
+
+  @media only screen and (orientation: portrait) {
+    section {
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    p,
+    a {
+      font-size: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    section {
+      margin-bottom: 36px;
+    }
+
+    p,
+    a {
+      margin-right: 30px;
+      width: auto;
+    }
+  }
 </style>
