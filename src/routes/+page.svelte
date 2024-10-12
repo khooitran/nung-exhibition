@@ -60,6 +60,7 @@
 
   section {
     height: 92vh;
+    padding: 80px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,7 +91,11 @@
 
   @media only screen and (max-width: 576px) {
     .image-rows {
-      grid-template-columns: auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+    }
+
+    section {
+      padding: 10px 0;
     }
 
     img:nth-child(even) {
