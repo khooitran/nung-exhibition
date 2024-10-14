@@ -90,4 +90,20 @@
     padding-left: 30px;
     list-style: none;
   }
+
+  @media only screen and (max-width: 992px) {
+    ul {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .buffer {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    ul {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
