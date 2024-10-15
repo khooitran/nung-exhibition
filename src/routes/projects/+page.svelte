@@ -19,7 +19,7 @@
     },
     {
       file: 'changes',
-      name: 'Changes - Perspectives on an Evolving City',
+      name: 'Changes',
       author: 'Nguyễn Đặng Hùng Sơn',
     },
     {
