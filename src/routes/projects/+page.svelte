@@ -18,7 +18,7 @@
       author: 'Trần Khánh Linh',
     },
     {
-      file: 'changes',
+      file: 'hanoi-changes',
       name: 'Changes',
       author: 'Nguyễn Đặng Hùng Sơn',
     },
