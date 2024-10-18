@@ -1,21 +1,16 @@
 <section>
-  <img
-    src="/tiles-logo.png"
-    alt="Logo of NUNG Exhibition, featuring 4 aesthetic tiles patterns representing 4 disciplines of design found within the exhibition."
-  />
-  <div>
-    <h2>
-      “Nung” is a Capstone 2 Exhibition, showcasing the works of RMIT University’ Final Year Design
-      Students. The concept of the project revolves around the imagery of different types of brick
-      tile and the process of making bricks. The clay has to be molded, transformed, and fired
-      (nung) under great heat in order to become a finished brick, which is a metaphor for design
-      students undergoing many hardships before submitting their final works, showing themselves to
-      the world.
-    </h2>
-    <p>
-      The website is currently in production. Still, feel free to roam about the website and see it
-      grow each day. Be aware of bugs and irregularities in this stage.
-    </p>
+  <div class="wrapper">
+    <img
+      src="/tiles-logo.png"
+      alt="Logo of NUNG Exhibition, featuring 4 aesthetic tiles patterns representing 4 disciplines of design found within the exhibition."
+    />
+    <div class="content">
+      <h1>NUNG is RMIT's fieriest kiln!</h1>
+      <h2>
+        A Capstone 2 Exhibition, showcasing the works of RMIT University's Final Year Design
+        Students, where the finest ceramics and tiles come to life!
+      </h2>
+    </div>
   </div>
 </section>
 
@@ -24,14 +19,21 @@
     background-color: #c72027;
     height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
   }
 
-  div {
-    width: 40vw;
-    margin: 115px 30px 20px 30px;
+  .wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .content {
+    width: 45vw;
+    margin: 0 30px;
     padding: 0;
   }
 
@@ -44,17 +46,17 @@
     margin-left: 30px;
   }
 
-  h2 {
+  h1 {
     color: white;
-    font-size: 24px;
-    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
   }
 
-  p {
+  h2 {
     color: white;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
   }
 
   @media only screen and (orientation: portrait) {
@@ -67,12 +69,21 @@
     div {
       width: 100%;
     }
+
+    h1 {
+      font-size: 30px;
+    }
   }
 
   @media only screen and (max-width: 992px) {
     section {
       padding-bottom: 40px;
     }
+
+    h1 {
+      font-size: 24px;
+    }
+
     h2,
     p {
       font-size: 18px;
@@ -80,8 +91,22 @@
   }
 
   @media only screen and (max-width: 576px) {
+    .wrapper {
+      display: block;
+    }
+
     img {
-      display: none;
+      width: 84%;
+      margin-right: auto;
+      margin-bottom: 60px;
+    }
+
+    .content {
+      width: 84%;
+    }
+
+    h1 {
+      font-size: 22px;
     }
   }
 </style>

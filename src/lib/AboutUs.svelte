@@ -10,9 +10,10 @@
   p {
     margin-left: 30px;
     width: 36vw;
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     color: #c72027;
+    margin-bottom: 50px;
   }
 
   a {

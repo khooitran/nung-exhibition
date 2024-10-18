@@ -11,9 +11,10 @@
   p {
     width: 36vw;
     padding-right: 14vw;
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     color: #c72027;
+    margin-bottom: 50px;
   }
 
   a {
