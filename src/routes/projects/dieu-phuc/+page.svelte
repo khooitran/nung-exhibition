@@ -6,15 +6,15 @@
   let authorInfo = {
     name: 'Nguyễn Lê Thảo Nguyên',
     bio: 'I am a graphic designer based in Hanoi. I specialize in 2D graphics with a strong focus on: brand identity, packaging, UI design, 2D motion graphics, and graphic illustrations.',
-    mail: 'hson7593@gmail.com',
-    website: 'https://www.behance.net/hungson2',
-    instagram: 'byhson._',
+    mail: 'nltnguyen0403@gmail.com',
+    behance: 'https://www.behance.net/nltnguyen03',
+    website: 'https://readymag.website/u3192193723/4951083',
   };
 
   let projectInfo = {
-    file: 'hanoi-changes',
-    name: 'Changes',
-    bio: "Hanoi's history and culture are its distinctive traits, but rapid modernization is causing these old values to fade, especially among the youth. This project highlights the city's changes and celebrates its local history through three main historical periods, thereby bridging the cultural gap created by globalization.",
+    file: 'dieu-phuc',
+    name: 'Diệu Phục',
+    bio: 'Vietnamese traditional clothing (or Cổ phục Việt/Việt phục) is a unique expression of Vietnamese culture and a cherished heritage of Vietnam. Yet, for much of modern history, these traditional garments, steeped in cultural and aesthetic value, have remained largely unknown to the wider public.  So, this project seeks to bridge that gap by designing an archive website - Diệu Phục - dedicated to supporting the preservation and dissemination of knowledge about Việt phục. The goal is to create an engaging, user-friendly digital platform that serves as a reliable resource for scholars, designers, and anyone interested in Việt phục.',
     images: [
       ['1.png', '2.png', '3.png'],
       ['4.png', '5.png', '6.png'],
