@@ -1,6 +1,7 @@
 <script>
   import AuthorInfo from '../../../lib/AuthorInfo.svelte';
-  import ProjectDetails from '../../../lib/ProjectDetails.svelte';
+  import Content from '../../../lib/Content.svelte';
+  import Collage from '../../../lib/Collage.svelte';
 
   let authorInfo = {
     name: 'Từ Bảo Ngân',
@@ -23,7 +24,10 @@
 
 <section>
   <div class="buffer"></div>
-  <ProjectDetails {...projectInfo} />
+  <div class="project-section">
+    <Content {...projectInfo} />
+    <Collage {...projectInfo} />
+  </div>
   <AuthorInfo {...authorInfo} />
 </section>
 

@@ -2,21 +2,39 @@
   export let name;
   export let bio;
   export let mail;
-  export let website;
+  export let website = null;
+  export let behance = null;
+  export let instagram = null;
 </script>
 
 <div>
   <h2>{name}</h2>
-  <p>{bio}</p>
-  <a href="mailto:{mail}">Gmail &rarr;</a>
-  <a href="{website}">Portfolio &rarr;</a>
+  <p class="bio">{bio}</p>
+  <p class="mail">{mail}</p>
+  {#if website}
+    <a
+      target="_blank"
+      href="{website}">Portfolio &rarr;</a
+    >
+  {/if}
+  {#if behance}
+    <a
+      target="_blank"
+      href="{behance}">Behance &rarr;</a
+    >
+  {/if}
+  {#if instagram}
+    <a
+      target="_blank"
+      href="https://www.instagram.com/{instagram}">Instagram &rarr;</a
+    >
+  {/if}
 </div>
 
 <style>
   div {
     position: fixed;
     width: 25%;
-    z-index: -1;
   }
 
   h2,
@@ -28,7 +46,15 @@
   p {
     font-weight: 700;
     font-size: 22px;
+    margin: 0;
+  }
+
+  .bio {
     margin-bottom: 60px;
+  }
+
+  .mail {
+    margin-bottom: 4px;
   }
 
   h2 {
@@ -38,9 +64,9 @@
   }
 
   a {
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 700;
     display: block;
   }
 

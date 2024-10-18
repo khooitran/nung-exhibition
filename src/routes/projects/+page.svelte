@@ -23,7 +23,7 @@
       author: 'Nguyễn Đặng Hùng Sơn',
     },
     {
-      file: 'culture-archive',
+      file: 'cultural-archive',
       name: 'Cultural Archive: Ethnicities',
       author: 'Đinh Song Linh',
     },
@@ -45,7 +45,7 @@
     {
       file: 'sinh-hoc-than-thu',
       name: 'Sinh Học Thần Thú',
-      author: 'Nguyễn Đỗ Quỳnh Anh',
+      author: 'Nguyễn Ngọc Quỳnh Hương',
     },
     {
       file: 'timewise',

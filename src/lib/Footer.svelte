@@ -23,6 +23,7 @@
   footer {
     background-color: #c72027;
     padding: 36px 30px 50px;
+    z-index: 1;
   }
 
   .flex {
