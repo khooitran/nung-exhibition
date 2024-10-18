@@ -16,6 +16,7 @@
   div {
     position: fixed;
     width: 25%;
+    z-index: -1;
   }
 
   h2,
@@ -51,6 +52,14 @@
     p,
     a {
       font-size: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    div {
+      position: static;
+      width: 100%;
+      margin-top: 40px;
     }
   }
 </style>

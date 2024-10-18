@@ -22,9 +22,9 @@
 </script>
 
 <section>
-  <AuthorInfo {...authorInfo} />
   <div class="buffer"></div>
   <ProjectDetails {...projectInfo} />
+  <AuthorInfo {...authorInfo} />
 </section>
 
 <style>
@@ -32,5 +32,15 @@
     margin: 100px 30px;
     display: grid;
     grid-template-columns: 1fr 2.5fr;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .buffer {
+      display: none;
+    }
+
+    section {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

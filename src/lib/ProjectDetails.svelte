@@ -48,7 +48,7 @@
   }
 
   .column {
-    flex: 50;
+    flex: 30%;
     max-width: 50%;
     padding: 0 4px;
   }
@@ -62,6 +62,27 @@
   @media only screen and (max-width: 1400px) {
     p {
       font-size: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .column:nth-child(3) {
+      display: none;
+    }
+
+    .column {
+      flex: 45%;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    p {
+      padding-right: 0;
+    }
+
+    .column {
+      flex: 100%;
+      max-width: 100%;
     }
   }
 </style>
