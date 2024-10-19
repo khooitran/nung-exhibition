@@ -39,7 +39,7 @@
     grid-template-columns: 1fr 2.5fr;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 992px) {
     .buffer {
       display: none;
     }

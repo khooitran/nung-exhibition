@@ -39,16 +39,6 @@
     width: 100%;
   }
 
-  @media only screen and (max-width: 992px) {
-    .column:nth-child(3) {
-      display: none;
-    }
-
-    .column {
-      flex: 45%;
-    }
-  }
-
   @media only screen and (max-width: 576px) {
     .column {
       flex: 100%;

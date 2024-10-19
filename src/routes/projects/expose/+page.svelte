@@ -7,7 +7,6 @@
     name: 'Nguyễn Hoàng Long',
     bio: "I am really into the grunge design style and have a strong interest in experimental design as well as animation - there's something incredible about bringing ideas to life through movement.",
     mail: 'longnolh@gmail.com',
-    website: 'https://readymag.website/u1761001117/4950226',
     behance: 'https://www.behance.net/longremipsum',
     instagram: 'longremipsum',
   };
@@ -17,9 +16,9 @@
     name: 'Expose',
     bio: 'Expose is an interactive visual experience that uncovers the truth behind misinformation. By blending chaotic design elements with immersive features like decoder magnifiers and lenticular cards, Expose challenges users to navigate the confusing world of false information. The project was designed for a conference on media literacy and aims to encourage critical thinking, engagement, and awareness in a world where truth is often hidden among lies.',
     images: [
-      ['1.png', '2.png', '3.png'],
-      ['4.png', '5.png', '6.png'],
-      ['7.png', '8.png', '9.png'],
+      ['1.JPG', '2.JPG', '3.JPG'],
+      ['4.JPG', '5.JPG', '6.JPG'],
+      ['7.JPG', '8.JPG', '9.JPG'],
     ],
   };
 </script>
@@ -40,7 +39,7 @@
     grid-template-columns: 1fr 2.5fr;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 992px) {
     .buffer {
       display: none;
     }
