@@ -19,7 +19,7 @@
     images: [
       ['1.gif', '2.png', '3.png'],
       ['4.png', '5.gif', '6.png'],
-      ['7.jpg', '8.png', '9.gif'],
+      ['11.jpg', '8.png', '09.gif'],
     ],
     video: '03.webm',
   };
