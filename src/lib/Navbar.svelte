@@ -13,6 +13,7 @@
 
 <style>
   nav {
+    z-index: 1;
     background: #c72027;
     padding: 16px 30px;
     border-bottom: solid #fffafa;
