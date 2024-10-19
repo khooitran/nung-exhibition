@@ -2,6 +2,7 @@
   import AuthorInfo from '../../../lib/AuthorInfo.svelte';
   import Content from '../../../lib/Content.svelte';
   import Collage from '../../../lib/Collage.svelte';
+  import Video from '../../../lib/Video.svelte';
 
   let authorInfo = {
     name: 'Nguyễn Phương Nhung',
@@ -20,6 +21,7 @@
       ['4.jpg', '5.jpg', '6.jpg'],
       ['7.jpg', '8.png', '9.png'],
     ],
+    video: 'video.webm',
   };
 </script>
 
@@ -27,6 +29,7 @@
   <div class="buffer"></div>
   <div class="project-section">
     <Content {...projectInfo} />
+    <Video {...projectInfo} />
     <Collage {...projectInfo} />
   </div>
   <AuthorInfo {...authorInfo} />

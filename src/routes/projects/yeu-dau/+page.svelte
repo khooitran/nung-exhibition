@@ -2,6 +2,7 @@
   import AuthorInfo from '../../../lib/AuthorInfo.svelte';
   import Content from '../../../lib/Content.svelte';
   import Collage from '../../../lib/Collage.svelte';
+  import Video from '../../../lib/Video.svelte';
 
   let authorInfo = {
     name: 'Nguyễn Đức Duy',
@@ -20,6 +21,7 @@
       ['4.png', '5.gif', '6.png'],
       ['7.gif', '8.png', '9.jpg'],
     ],
+    video: '03.webm',
   };
 </script>
 
@@ -27,6 +29,16 @@
   <div class="buffer"></div>
   <div class="project-section">
     <Content {...projectInfo} />
+    <Video {...projectInfo} />
+    <video
+      src="/individuals/{projectInfo.file}/02.webm"
+      autoplay
+      muted
+      width="100%"
+      height="auto"
+    >
+      Your browser does not support video feature.
+    </video>
     <Collage {...projectInfo} />
   </div>
   <AuthorInfo {...authorInfo} />
