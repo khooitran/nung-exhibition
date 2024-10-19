@@ -19,7 +19,7 @@
     },
     {
       file: 'hanoi-changes',
-      name: 'Changes',
+      name: 'Hanoi Changes',
       author: 'Nguyễn Đặng Hùng Sơn',
     },
     {

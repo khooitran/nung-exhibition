@@ -13,7 +13,7 @@
 
   let projectInfo = {
     file: 'hanoi-changes',
-    name: 'Changes',
+    name: 'Hanoi Changes',
     bio: "Hanoi's history and culture are its distinctive traits, but rapid modernization is causing these old values to fade, especially among the youth. This project highlights the city's changes and celebrates its local history through three main historical periods, thereby bridging the cultural gap created by globalization.",
     images: [
       ['1.png', '2.png', '3.png'],
