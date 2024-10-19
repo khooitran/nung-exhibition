@@ -7,7 +7,7 @@
     name: 'Từ Bảo Ngân',
     bio: 'I am a graphic designer with a strong passion for editorial and layout design, a love for developing brand identities, and a solid foundation in UI/UX design.',
     mail: 'nagn.naci@gmail.com',
-    website: 'https://www.naci.cargo.site',
+    website: 'https://naci.cargo.site',
   };
 
   let projectInfo = {

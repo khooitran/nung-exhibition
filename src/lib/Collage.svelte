@@ -5,11 +5,11 @@
 </script>
 
 <div class="collage">
-  {#each { length: images.length } as _, i}
+  {#each { length: 3 } as _, i}
     <div class="column">
-      {#each images as imageColumn}
+      {#each images as imageRow}
         <img
-          src="/individuals/{file}/{imageColumn[i]}"
+          src="/individuals/{file}/{imageRow[i]}"
           alt="{name}"
         />
       {/each}

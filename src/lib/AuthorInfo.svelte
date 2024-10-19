@@ -10,7 +10,7 @@
 <div>
   <h2>{name}</h2>
   <p class="bio">{bio}</p>
-  <p class="mail">{mail}</p>
+  <a href="mailto:{mail}">Email &rarr;</a>
   {#if website}
     <a
       target="_blank"
@@ -53,10 +53,6 @@
     margin-bottom: 60px;
   }
 
-  .mail {
-    margin-bottom: 4px;
-  }
-
   h2 {
     font-weight: 900;
     padding-bottom: 10px;
@@ -86,6 +82,16 @@
       position: static;
       width: 100%;
       margin-top: 40px;
+    }
+
+    .bio {
+      padding-right: 20vw;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .bio {
+      padding-right: 0;
     }
   }
 </style>
