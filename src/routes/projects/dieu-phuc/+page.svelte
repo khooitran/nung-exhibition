@@ -30,6 +30,14 @@
   <div class="project-section">
     <Content {...projectInfo} />
     <Video {...projectInfo} />
+    <iframe
+      title="prototype"
+      style="border: 1px solid rgba(0, 0, 0, 0.1);"
+      width="100%"
+      height="600px"
+      src="https://embed.figma.com/proto/DIrmoVNFIynh4qyZxb2r37/Di%E1%BB%87u-Ph%E1%BB%A5c?page-id=0%3A1&node-id=27-131&node-type=canvas&viewport=241%2C295%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=408%3A3470&embed-host=share"
+      allowfullscreen
+    ></iframe>
     <Collage {...projectInfo} />
   </div>
   <AuthorInfo {...authorInfo} />
