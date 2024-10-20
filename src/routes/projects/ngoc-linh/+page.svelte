@@ -30,6 +30,13 @@
   <div class="project-section">
     <Content {...projectInfo} />
     <Video {...projectInfo} />
+    <iframe
+      title="flipbook"
+      allowfullscreen="allowfullscreen"
+      scrolling="no"
+      src="https://heyzine.com/flip-book/b15416dab8.html"
+      style="border: 1px solid lightgray; width: 100%; height: 600px;"
+    ></iframe>
     <Collage {...projectInfo} />
   </div>
   <AuthorInfo {...authorInfo} />

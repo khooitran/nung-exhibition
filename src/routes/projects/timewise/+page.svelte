@@ -29,6 +29,14 @@
   <div class="project-section">
     <Content {...projectInfo} />
     <Video {...projectInfo} />
+    <iframe
+      title="prototype"
+      style="border: 1px solid rgba(0, 0, 0, 0.1);"
+      width="100%"
+      height="600px"
+      src="https://embed.figma.com/proto/i4WVHBw4YkwFIXaMldDwy5/TimeWise-Final?node-id=5501-1050&starting-point-node-id=5501%3A1050&show-proto-sidebar=1&embed-host=share"
+      allowfullscreen
+    ></iframe>
     <Collage {...projectInfo} />
   </div>
   <AuthorInfo {...authorInfo} />

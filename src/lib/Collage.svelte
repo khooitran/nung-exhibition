@@ -30,7 +30,11 @@
   .column {
     flex: 30%;
     max-width: 50%;
-    padding: 0 4px;
+    padding-right: 8px;
+  }
+
+  .column:nth-child(3) {
+    padding-right: 0;
   }
 
   .column img {
@@ -43,6 +47,7 @@
     .column {
       flex: 100%;
       max-width: 100%;
+      padding-right: 0;
     }
   }
 </style>
