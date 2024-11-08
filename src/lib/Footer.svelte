@@ -2,9 +2,10 @@
   <p class="title">NUNG Exhibition</p>
   <div class="flex">
     <div>
-      <p>RMIT University Hanoi</p>
-      <p>School of Communication & Design</p>
+      <p>NUNG Exhibition Committee</p>
       <p>Bachelor of Design Studies</p>
+      <p>School of Communication & Design</p>
+      <p>from RMIT University Hanoi</p>
     </div>
     <div>
       <a
